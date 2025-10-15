@@ -13,8 +13,6 @@ class JenkinsProjectApplicationTests {
 	void contextLoads() {
 		logger.info("test case executed..!");
 		logger.info("Test case executing second log statement");
-		
-		
 		assertWith(true, true);
 	}
 
